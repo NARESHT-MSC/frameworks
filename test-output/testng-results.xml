@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T17:30:31 IST" name="Default suite" finished-at="2024-08-29T17:30:56 IST" duration-ms="24967">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T17:30:31 IST" name="Default test" finished-at="2024-08-29T17:30:56 IST" duration-ms="24967">
+      <class name="com.saag.DataDrivenTestCases.DDFEbayProdCatSearchTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.saag.DataDrivenTestCases.DDFEbayProdCatSearchTest@3e694b3f]" started-at="2024-08-29T17:30:16 IST" name="beforeSuite" finished-at="2024-08-29T17:30:31 IST" duration-ms="15487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.saag.DataDrivenTestCases.DDFEbayProdCatSearchTest@3e694b3f]" started-at="2024-08-29T17:30:38 IST" name="f" data-provider="ebayData" finished-at="2024-08-29T17:30:42 IST" duration-ms="3984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.saag.DataDrivenTestCases.DDFEbayProdCatSearchTest@3e694b3f]" started-at="2024-08-29T17:30:42 IST" name="f" data-provider="ebayData" finished-at="2024-08-29T17:30:56 IST" duration-ms="14484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Crafts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[handmade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.saag.DataDrivenTestCases.DDFEbayProdCatSearchTest@3e694b3f]" started-at="2024-08-29T17:30:58 IST" name="afterSuite" finished-at="2024-08-29T17:31:10 IST" duration-ms="11956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.saag.DataDrivenTestCases.DDFEbayProdCatSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

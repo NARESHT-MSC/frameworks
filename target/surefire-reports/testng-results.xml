@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[product search was successful..]]>
+    </line>
+    <line>
+      <![CDATA[under category product search was successful..]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-27T14:51:42 IST" name="Suite" finished-at="2024-08-27T14:52:31 IST" duration-ms="49461">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T14:51:42 IST" name="Test" finished-at="2024-08-27T14:52:31 IST" duration-ms="49461">
+      <class name="testcases.EbayCategoryProdSearchTest">
+        <test-method signature="productsearch()[pri:0, instance:testcases.EbayCategoryProdSearchTest@1f0f1111]" started-at="2024-08-27T14:51:58 IST" name="productsearch" finished-at="2024-08-27T14:52:31 IST" duration-ms="32779" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[under category product search was successful..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productsearch -->
+      </class> <!-- testcases.EbayCategoryProdSearchTest -->
+      <class name="testcases.EbayProdSearchTest">
+        <test-method signature="productsearch()[pri:0, instance:testcases.EbayProdSearchTest@6ac13091]" started-at="2024-08-27T14:51:42 IST" name="productsearch" finished-at="2024-08-27T14:51:58 IST" duration-ms="16573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[product search was successful..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productsearch -->
+      </class> <!-- testcases.EbayProdSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
