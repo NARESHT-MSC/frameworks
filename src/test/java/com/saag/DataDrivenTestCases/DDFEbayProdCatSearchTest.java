@@ -22,12 +22,11 @@ public class DDFEbayProdCatSearchTest  extends BaseTest
 		Select s = new Select(dd);
 		s.selectByVisibleText(cat);
 
-
-
-		WebElement text =	driver.findElement(By.id(loc.getProperty("textSearch")));
+		WebElement text =driver.findElement(By.id(loc.getProperty("textSearch")));
 		text.clear();
 		text.sendKeys(prod);
 		driver.findElement(By.id(loc.getProperty("btnSearch"))).click();
+		
 
 	}
 
